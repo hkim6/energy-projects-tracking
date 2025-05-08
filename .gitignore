@@ -25,3 +25,5 @@ test/*
 *.tfstate.backup
 *.terraform*
 infrastructure/variables.tf
+
+*.DS_Store*
