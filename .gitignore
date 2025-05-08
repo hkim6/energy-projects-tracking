@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ruff
+.ruff_cache/
+
+# tmp
+tmp/
+*__pycache__*
+test/*
+
+# terraform
+*.tfstate
+*.tfstate.backup
+*.terraform*
+infrastructure/variables.tf
